@@ -1,4 +1,4 @@
-# Rover Class
+
 class Rover:
     def __init__(self, x, y, direction, grid):
         self.x = x
@@ -35,7 +35,7 @@ class Rover:
         return f"Rover is at ({self.x}, {self.y}) facing {self.direction}. No obstacles detected."
 
 
-# Grid Class
+
 class Grid(GridComponent):
     def __init__(self, size):
         self.size = size
